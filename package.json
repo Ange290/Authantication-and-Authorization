@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon",
-    "start": "node server.js"
+    "dev": "node init && nodemon",
+    "start": "node init && node server.js"
   },
   "keywords": [],
   "author": "",
